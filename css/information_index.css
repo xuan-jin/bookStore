@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.information, .mesage_tab {
+    margin: 30px 280px;
+}
+
+#demo {
+    margin: 30px;
+    float:inline-end;
+}
+#book_information {
+    margin: 30px 0;
+}
+.prices_str {
+    color: red;
+    font-size: 30px;
+}
+.tab-content {
+    text-align: center;
+}
+
+.text_info {
+    margin: 60px 100px;
+    text-align: left;
+    text-indent: 2em;
+    font-family: '楷体';
+    font-size: 22px;
+
+}
+.footer {
+    text-align: center;
+    margin: 50px 0 0 0;
+    padding: 30px 0;
+}
+.loge_bottom {
+    margin: 30px;
+}

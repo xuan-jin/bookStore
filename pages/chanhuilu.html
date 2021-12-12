@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/information_index.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+</head> 
+<body>
+    <!--导航栏-->
+    <nav class="navbar navbar-expand-md bg-light navbar-light" id="index">
+        <a class="navbar-brand" href="#">淡泊书局</a>
+        <!--折叠按钮-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--折叠组件及链接页面-->
+        <div class="collapsse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="../index.html">首页</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-target="#navbardrop" data-toggle="dropdown">分类</a>
+                    <div class="dropdown-menu" id="navbardrop">
+                        <a class="dropdown-item" href="../index.html#kemu2">文学</a>
+                        <a class="dropdown-item" href="../index.html#kemu3">科幻</a>
+                        <a class="dropdown-item" href="../index.html#kemu4">历史</a>
+                        <a class="dropdown-item" href="../index.html#kemu5">哲学</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">更多></a>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="../index.html#kemu1">好书推荐</a></li>
+                <li class="nav-item"><a class="nav-link" href="mailto:13146699620@163.com">联系我们</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="page_all">
+        <div class="information" id="ifm_1">
+            <div class="row">
+                <div class="col-md-4 shadow p-3 mb-5 bg-white rounded">
+                    <!-- 轮播图 -->
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+                        <!-- 指示符 -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+
+                        </ul>
+                        <!-- 轮播图片 -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/zhexue/chanhuilu/chanhuilu_02.jpg" class="d-block w-100 rounded" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/zhexue/chanhuilu/chanhuilu_03.jpg" class="d-block w-100 rounded" alt="">
+                            </div>
+                        </div>
+                        <!-- 左右切换按钮 -->
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-8 shadow p-3 mb-5 bg-white rounded-lg">
+                    <h3>忏悔录（精装本）</h3>
+                    <p>[古罗马] 奥古斯丁（Augustine） 著，周士良 译</p>
+                    <div class="price shadow-sm p-3 mb-5 bg-light rounded-lg">
+                        <p>价&nbsp;&nbsp;&nbsp;格：<strong class="prices_str">¥42.9</strong><span> <strike> ￥48</strike></span></p>
+                        <p>优惠券: <span class="badge badge-danger">满1000减100</span> <span class="badge badge-danger">满300减20</span> <span class="badge badge-danger">满200减10</span> <a href="#">更多>></a></p>
+                        <p>促&nbsp;&nbsp;&nbsp;销: <span class="badge badge-success">满减</span>  每满100元，可减50元现金 <a href="#">详情>></a></p>
+                    </div>
+                    <p>增值业务: <span class="badge badge-info">助力环保，传递知识，旧书换新</span></p>
+                    <p>排&nbsp;&nbsp;行&nbsp;&nbsp;榜:  西方哲学书籍热卖榜第2名  <a href="">详情>></a></p>
+                    <p>配送至: <input type="address" value="广东省中山市>>"></p>
+                    <p>重&nbsp;&nbsp;&nbsp;量：0.465kg</p>
+                    <p><input class="input" id="number" type="number" value="1" min="0">
+                        <button type="button" class="btn btn-danger">加入购物车</button>
+                        <button type="button" class="btn btn-warning">立即购买</button>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="mesage_tab" id="tab_1">
+            <ul class="nav nav-tabs" id="">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#bok_information">图书详情</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#summarize">内容简介</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#author">作者简介</a>
+                </li>
+
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active" id="bok_information">
+                    <div class="row">
+                        <div class="col-md-4 shadow p-3 mb-5 bg-white rounded">
+                            <p>出版社：  商务印书馆</p>
+                            <p>ISBN：9787100115629</p>
+                            <p>版次：1</p>
+                            <p>商品编码：13169366</p>
+                        </div>
+                        <div class="col-md-4 shadow p-3 mb-5 bg-white rounded">
+                            <p>品牌：商务印书馆</p>
+                            <p>包装：精装</p>
+                            <p>开本：32开</p>
+                        </div>
+                        <div class="col-md-4 shadow p-3 mb-5 bg-white rounded">
+                            <p>出版时间：2015-11-01</p>
+                            <p>用纸：胶版纸</p>
+                            <p>正文语种：中文</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="img/zhexue/chanhuilu/cahnhuiluxq.png" alt="Chrome">
+                    </div>
+                </div>
+                <div class="tab-pane shadow p-3 mb-5 bg-white rounded-lg" id="summarize">
+                    <div class="text_info">
+                        <p>简介</p>
+                        <p>懺悔錄以作者奧古斯丁寫作當下的角度，去描述自己的生平，對曾經犯下的惡業做懺悔。同時，也描寫了自身在不同的階段所信仰的事物與對世界的觀點。</p>
+                        <p>第一部分：卷一，歌颂天主，记述初生至十五岁的事迹；卷二、三，记述他的青年和在迦太基求学时的生活；卷四、五，记述他赴米兰前的教书生涯；卷六、七，记述他思想转变的过程；卷八则记述他一次思想斗争的起因、经过与结果；卷九是他信奉基督教后至母亲病逝一段事迹。</p>    
+                        <p>第二部分：卷十是分析他著书时的思想情况；卷十至十三，则诠释《旧约创世纪》第一章，瞻仰天主六日创世的工程，在歌颂天主中结束全书。</p>    
+                        <p>主题</p>
+                        <p>《忏悔录》(Confessions)在拉丁文中本为“承认、认罪”的意思，但在教会文学当中也有承认神的伟大的歌颂意义，即奥古斯丁在本书当中，叙述一生所蒙恩典，发出对天主的歌颂。而他也成为一种新文体的开山之作，在后来的欧洲，“忏悔录”已经成了自传的另一名称。</p>
+                        <p>而奥古斯丁的思想对于基督教义有深远的影响，《忏悔录》中提到的论记忆、对罪的观念以及对时间的观念，都影响到基督教思想，在他其余著作中的三一论、救恩论、圣礼观更是后来的罗马教会重要的思想泉源。就连宗教改革时期的加尔文、马丁路德都深受他影响，使现代教会的教义中继续承袭了奥古斯丁的思想。</p>
+                    </div>
+
+                </div>
+                <div class="tab-pane shadow p-3 mb-5 bg-white rounded-lg" id="author">
+                    <div class="text_info">
+                        <p>奥古斯丁（Aurelius Augustinus）是古代基督教主要作家之一，与中世纪的托马斯·阿奎那（Thomas Aquinas）同为基督教神学的两大师。</p>
+                        <p>古斯丁的思想对于基督教教义有深远的影响，宗教改革时期的加尔文、马丁路德都深受他影响，使现代教会的教义中承袭了奥古斯丁的思想。</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="footer" id="foot_1">
+            <div>
+                <img class="loge_bottom" src="./img/loge.png" alt="">
+                <p>非淡泊无以明志，非宁静无以致远。</p>
+                <p></p>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

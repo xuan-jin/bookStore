@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/information_index.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+</head> 
+<body>
+    <!--导航栏-->
+    <nav class="navbar navbar-expand-md bg-light navbar-light" id="index">
+        <a class="navbar-brand" href="#">淡泊书局</a>
+        <!--折叠按钮-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--折叠组件及链接页面-->
+        <div class="collapsse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="../index.html">首页</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-target="#navbardrop" data-toggle="dropdown">分类</a>
+                    <div class="dropdown-menu" id="navbardrop">
+                        <a class="dropdown-item" href="../index.html#kemu2">文学</a>
+                        <a class="dropdown-item" href="../index.html#kemu3">科幻</a>
+                        <a class="dropdown-item" href="../index.html#kemu4">历史</a>
+                        <a class="dropdown-item" href="../index.html#kemu5">哲学</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">更多></a>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="../index.html#kemu1">好书推荐</a></li>
+                <li class="nav-item"><a class="nav-link" href="mailto:13146699620@163.com">联系我们</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="page_all">
+        <div class="information" id="ifm_1">
+            <div class="row">
+                <div class="col-md-4 shadow p-3 mb-5 bg-white rounded">
+                    <!-- 轮播图 -->
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+                        <!-- 指示符 -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
+
+                        </ul>
+                        <!-- 轮播图片 -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/kehuan/santi/The_Three-Body_Problem_01.jpg" class="d-block w-100 rounded" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/kehuan/santi/The_Three-Body_Problem_02.jpg" class="d-block w-100 rounded" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/kehuan/santi/The_Three-Body_Problem_03.jpg" class="d-block w-100 rounded" alt="">
+                            </div>
+                        </div>
+                        <!-- 左右切换按钮 -->
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-8 shadow p-3 mb-5 bg-white rounded-lg">
+                    <h3>中国科幻基石丛书:三体全集（套装1-3册）</h3>
+                    <p>《三体》第73届世界科幻雨果奖获奖作品，银河奖特别奖，《三体3》轨迹奖长篇科幻小说!2017年世界雨果奖提名作品。</p>
+                    <p>刘慈欣 著</p>
+                    <div class="price shadow-sm p-3 mb-5 bg-light rounded-lg">
+                        <p>价&nbsp;&nbsp;&nbsp;格:<strong class="prices_str">￥60.8</strong><span> <strike> ￥93</strike></span></p>
+                        <p>优惠券: <span class="badge badge-danger">满1000减100</span> <span class="badge badge-danger">满300减20</span> <span class="badge badge-danger">满200减10</span> <a href="#">更多>></a></p>
+                        <p>促&nbsp;&nbsp;&nbsp;销: <span class="badge badge-success">满减</span>  每满100元，可减50元现金 <a href="#">详情>></a></p>
+                    </div>
+                    <p>增值业务: <span class="badge badge-info">助力环保，传递知识，旧书换新</span></p>
+                    <p>排&nbsp;&nbsp;行&nbsp;&nbsp;榜:  科幻小说热卖榜第1名  <a href="">详情>></a></p>
+                    <p>配送至: <input type="address" value="广东省中山市>>"></p>
+                    <p>重&nbsp;&nbsp;&nbsp;量:1.32kg</p>
+                    <p><input class="input" id="number" type="number" value="1" min="0">
+                        <button type="button" class="btn btn-danger">加入购物车</button>
+                        <button type="button" class="btn btn-warning">立即购买</button>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="mesage_tab" id="tab_1">
+            <ul class="nav nav-tabs" id="">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#bok_information">图书详情</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#summarize">内容简介</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#author">作者简介</a>
+                </li>
+
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active" id="bok_information">
+                    <div class="row">
+                        <div class="col-md-4 shadow p-3 mb-5 bg-white rounded">
+                            <p>出版社: 作家出版社</p>
+                            <p>ISBN:9787521215182</p>
+                            <p>版次:1</p>
+                            <p>商品编码:12961159</p>
+                        </div>
+                        <div class="col-md-4 shadow p-3 mb-5 bg-white rounded">
+                            <p>品牌:作家出版社</p>
+                            <p>包装:平装</p>
+                            <p>开本:32开</p>
+                            <p>出版时间:2021-11-01</p>
+                        </div>
+                        <div class="col-md-4 shadow p-3 mb-5 bg-white rounded">
+                            <p>用纸:胶版纸</p>
+                            <p>页数:374</p>
+                            <p>字数:108000</p>
+                            <p>正文语种:中文</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="img/kehuan/santi/The_Three-Body_Problem_mes.jpg" alt="Chrome">
+                    </div>
+                </div>
+                <div class="tab-pane shadow p-3 mb-5 bg-white rounded-lg" id="summarize">
+                    <div class="text_info">                    
+                        <p>本套装包括《三体》、《三体2:黑暗森林》、《三体3:死神永生》3册。
+                        </p>
+                        <h4>《三体》</h4>
+                        <p>作者试图讲述一部在光年尺度上重新演绎的中国现代史，讲述一个文明二百次毁灭与重生的传奇。小说《三体》与三体问题有关，其中描述了一种在半人马座三星生存的三体人及其三体文明。同时《三体》也是小说中的一个模拟三体文明在一个有三颗太阳的星系中挣扎生存并发展的网络游戏，应该是由希望三体文明降临地球介入人类文明的三体组织开发的。
+                        </p>
+                        <h4>《三体2:黑暗森林》</h4>
+                        <p>讲述的是光年尺度下的生存推理。在三体人准备侵略地球的这段时间里，人类当然不会坐以待毙，利用三体人思维透明的致命缺陷，制订了神秘莫测的“面壁计划”，精选出四位“面壁者”，希望以此展开对三体人的反击。
+                        </p>
+                        <h4>《三体3:死神永生》</h4>
+                        <p>与三体文明的战争使人类看到了宇宙黑暗的真相，地球文明像一个恐惧的孩子，熄灭了寻友的篝火，在暗夜中发抖。自以为历经沧桑，其实刚刚蹒跚学步；自以为悟出了生存竞争的秘密，其实还远没有竞争的资格。使两个文明命悬一线的黑暗森林打击，不过是宇宙战场上的一个微不足道的插曲，一个在战场上乱跑的无知孩童被堑壕中射杀，仅此而已。真正的星际战争没人见过，也不可能见到。因为战争的方式和武器已经远超出人类的想象，目睹战场之日，就是灭亡之时。人类没有想到，面对这巨大的存在，从社会学的结论，却可以推导出宇宙学的结果。宇宙的田园时代已经远去，那时，万物的之美曾昙花一现，现在已经变成任何大脑和智慧体都无法做出的梦，变成游吟诗人飘渺的残歌；宇宙的物竞天择已到了惨烈的时刻，在亿万光年暗无天日的战场上，深渊底层的毁灭力量被唤醒，太空变成了死神广阔的披风。太阳系中的人们永远不会知道这一切，面对真相的，只有两双眼睛。
+                        </p>
+                    </div>
+                </div>
+                <div class="tab-pane shadow p-3 mb-5 bg-white rounded-lg" id="author">
+                    <div class="text_info">                    
+                        <p>刘慈欣，生于六十年代，祖籍河南，现居山西娘子关。山西省作家协会会员，高级工程师。目前为中国科普作家协会会员，被誉为中国科幻的领军人物。</p>
+                        <p>自1999年开始科幻创作以来，刘慈欣已发表短篇科幻小说三十余篇，出版长篇科幻小说五部。创下连续八年荣获中国科幻较高奖“银河奖”的纪录。长篇力作《三体》开创了《科幻世界》连载原创长篇的先例，一举成为2006年度受关注与欢迎的科幻小说。
+                        </p>
+                        <p>刘慈欣成功地将极端的空灵和厚重的现实结合起来，同时注重表现科学的内涵和美感，努力创造出一种具有中国特色的科幻文学样式。其作品因宏伟大气、想像绚丽而获得广泛赞誉，并多次获得中国科幻银河奖。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer" id="foot_1">
+            <div>
+                <img class="loge_bottom" src="./img/loge.png" alt="">
+                <p>非淡泊无以明志，非宁静无以致远。</p>
+                <p></p>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

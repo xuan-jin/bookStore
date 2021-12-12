@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/information_index.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <!--导航栏-->
+    <nav class="navbar navbar-expand-md bg-light navbar-light" id="index">
+        <a class="navbar-brand" href="#">淡泊书局</a>
+        <!--折叠按钮-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--折叠组件及链接页面-->
+        <div class="collapsse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="../index.html">首页</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-target="#navbardrop" data-toggle="dropdown">分类</a>
+                    <div class="dropdown-menu" id="navbardrop">
+                        <a class="dropdown-item" href="../index.html#kemu2">文学</a>
+                        <a class="dropdown-item" href="../index.html#kemu3">科幻</a>
+                        <a class="dropdown-item" href="../index.html#kemu4">历史</a>
+                        <a class="dropdown-item" href="../index.html#kemu5">哲学</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">更多></a>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="../index.html#kemu1">好书推荐</a></li>
+                <li class="nav-item"><a class="nav-link" href="mailto:13146699620@163.com">联系我们</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="page_all">
+        <div class="information" id="ifm_1">
+            <div class="row">
+                <div class="col-md-4 shadow p-3 mb-5 bg-white rounded">
+                    <!-- 轮播图 -->
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+                        <!-- 指示符 -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
+                            <li data-target="#demo" data-slide-to="3"></li>
+                        </ul>
+                        <!-- 轮播图片 -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/kehuan/yinhediguo/Galactic_Empire_01.jpg" class="d-block w-100 rounded" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/kehuan/yinhediguo/Galactic_Empire_02.jpg" class="d-block w-100 rounded" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/kehuan/yinhediguo/Galactic_Empire_03.jpg" class="d-block w-100 rounded" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/kehuan/yinhediguo/Galactic_Empire_04.jpg" class="d-block w-100 rounded" alt="">
+                            </div>
+
+                        </div>
+                        <!-- 左右切换按钮 -->
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-8 shadow p-3 mb-5 bg-white rounded-lg">
+                    <h3>银河帝国礼盒珍藏版大全集</h3>
+                    <p>（套装共15册+银河战舰灯）（人教版七年级下册教材阅读书目。）</p>
+                    <p>艾萨克·阿西莫夫 著，叶李华 译</p>
+                    <div class="price shadow-sm p-3 mb-5 bg-light rounded-lg">
+                        <p>价&nbsp;&nbsp;&nbsp;格:<strong class="prices_str">￥699.00 </strong><span> <strike> ￥939</strike></span></p>
+                        <p>优惠券: <span class="badge badge-danger">满1000减100</span> <span class="badge badge-danger">满300减20</span> <span class="badge badge-danger">满200减10</span> <a href="#">更多>></a></p>
+                        <p>促&nbsp;&nbsp;&nbsp;销: <span class="badge badge-success">满减</span>  每满100元，可减50元现金 <a href="#">详情>></a></p>
+                    </div>
+                    <p>增值业务: <span class="badge badge-info">助力环保，传递知识，旧书换新</span></p>
+                    <p>排&nbsp;&nbsp;行&nbsp;&nbsp;榜:  入选『震撼人心的科幻小说精选』  <a href="">详情>></a></p>
+                    <p>配送至: <input type="address" value="广东省中山市>>"></p>
+                    <p>重&nbsp;&nbsp;&nbsp;量:7.534kg</p>
+                    <p><input class="input" id="number" type="number" value="1" min="0">
+                        <button type="button" class="btn btn-danger">加入购物车</button>
+                        <button type="button" class="btn btn-warning">立即购买</button>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="mesage_tab" id="tab_1">
+            <ul class="nav nav-tabs" id="">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#bok_information">图书详情</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#summarize">内容简介</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#author">作者简介</a>
+                </li>
+
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active" id="bok_information">
+                    <div class="row">
+                        <div class="col-md-4 shadow p-3 mb-5 bg-white rounded">
+                            <p>出版社: 江苏文艺出版社</p>
+                            <p>ISBN:12409539</p>
+                            <p>版次:1</p>
+                            <p>商品编码:12961159</p>
+                        </div>
+                        <div class="col-md-4 shadow p-3 mb-5 bg-white rounded">
+                            <p>品牌:读客</p>
+                            <p>包装:平装</p>
+                            <p>开本:32开</p>
+                            <p>出版时间:2018-09-01</p>
+                        </div>
+                        <div class="col-md-4 shadow p-3 mb-5 bg-white rounded">
+                            <p>用纸:纯质纸</p>
+                            <p>套装数量:15</p>
+                            <p>正文语种:中文</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="img/kehuan/yinhediguo/Galactic_Empire_xiangqing_01.jpg" alt="Chrome">
+                    </div>
+                </div>
+                <div class="tab-pane shadow p-3 mb-5 bg-white rounded-lg" id="summarize">
+                    <div class="text_info">
+                        <p>人类蜗居在银河系的一个小角落——太阳系，在围绕太阳旋转的第三颗行星上，生活了十多万年之久。</p>
+                        <p>人类在这个小小的行星（他们称之为“地球”）上，建立了两百多个不同的行政区域（他们称之为“国家”），直到地球上诞生了一个会思考的机器人。</p>
+                        <p>在机器人的帮助下，人类迅速掌握了改造外星球的技术，开启了恢弘的星际殖民运动；人类在银河系如蝗虫般繁衍扩张，带着他们永不磨灭的愚昧与智慧、贪婪与良知，登上了一个个荒凉的星球，并将银河系卷入漫长的星际战国时代，直至整个银河被统一，一个统治超过2500万个住人行星、疆域横跨十万光年、总计数兆亿人口的庞大帝国崛起——银河帝国。</p>
+                        <p>一个微妙的转折发生在银河帝国建国后的12020年。哈里·谢顿，这个刚满32岁的年轻数学家，开创了“心理史学”，这门学科能用数学公式准确推演全人类的未来——“预言”从此成为一门可以信任的科学，人类由此可以看见未来。</p>
+                        <p>谢顿的预言是:虽然毫无征兆，但已存在一万两千年之久的银河帝国即将灭亡。</p>
+                        <p>一时间，银河震动，帝国飘摇；皇帝、宰相、夺权者、反叛星球，各方势力立刻剑拔弩张，人类银河时代伟大的传奇就此开启……</p>
+                    </div>
+                </div>
+                <div class="tab-pane shadow p-3 mb-5 bg-white rounded-lg" id="author">
+                    <div class="text_info">
+                        <p>艾萨克·阿西莫夫（Isaac Asimov，1920-1992）</p>
+                        <p>俄裔美籍作家，被读者誉为“神一样的人”；美国政府授予他“国家的资源与自然的奇迹”这个无与伦比的称号，以表彰他在“拓展人类想象力”上作出的杰出贡献。</p>
+                        <p>俄裔美籍作家，被读者誉为“神一样的人”；美国政府授予他“国家的资源与自然的奇迹”这个无与伦比的称号，以表彰他在“拓展人类想象力”上作出的杰出贡献。</p>
+                        <p>阿西莫夫是一个全知全能的作家，其著作几乎覆盖人类生活的一切方面，上天下海、古往今来、从恐龙到亚原子到全宇宙无所不包，从通俗小说到罗马帝国史，从科普读物到远东千年历史，从科学指南，到两性生活指南，每一部著作都朴实、严谨而又充满幽默风趣的格调，为了尽情发挥自己诙谐搞笑的天赋，他甚至还写过一本《笑话集》。</p>
+                        <p>他提出的“机器人学三大法则”是当代机器人学的基本法则，他预言了今天的生物科技，预言了互联网时代的数字图书馆，预言了人类将进行太空殖民。</p>
+                        <p>终其一生，阿西莫夫引以为豪的则是:《银河帝国》系列小说。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer" id="foot_1">
+            <div>
+                <img class="loge_bottom" src="img/loge.png" alt="">
+                <p>非淡泊无以明志，非宁静无以致远。</p>
+                <p></p>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
